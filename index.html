@@ -19,16 +19,18 @@
         }
 
         .container {
-            display: grid;
-            grid-row: inherit;
-            place-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap : 20px;
            
         }
 
         .card {
             background-image: linear-gradient(135deg, rgb(164, 52, 198), rgb(129, 48, 241));
             color: white;
-            margin: 20px 20px;
+            height : 300px;
+            flex : 4 5 400px;
+            margin-right : 2px;
         }
 
         .card-title {
